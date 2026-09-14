@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104 104" width="104" height="104">
+  <defs>
+    <linearGradient id="favHex" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d2444"/>
+      <stop offset="100%" stop-color="#0a1e35"/>
+    </linearGradient>
+    <linearGradient id="favSun" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffa940"/>
+      <stop offset="100%" stop-color="#ff6b00"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M52,4 L96,28 L96,76 L52,100 L8,76 L8,28 Z" fill="url(#favHex)" stroke="#ff6b00" stroke-width="3"/>
+
+  <g transform="translate(52,42)">
+    <circle cx="0" cy="-8" r="16" fill="url(#favSun)"/>
+    <g stroke="#ffa940" stroke-width="4" stroke-linecap="round">
+      <line x1="0" y1="-30" x2="0" y2="-36"/>
+      <line x1="-16" y1="-22" x2="-20" y2="-26"/>
+      <line x1="16" y1="-22" x2="20" y2="-26"/>
+      <line x1="-24" y1="-8" x2="-30" y2="-8"/>
+      <line x1="24" y1="-8" x2="30" y2="-8"/>
+    </g>
+  </g>
+
+  <g transform="translate(52,80)">
+    <rect x="-36" y="0" width="72" height="7" rx="3" fill="#ff6b00"/>
+    <rect x="-27" y="-12" width="16" height="9" rx="1.5" fill="#0a1e35" stroke="#ff6b00" stroke-width="2"/>
+    <rect x="-8" y="-12" width="16" height="9" rx="1.5" fill="#0a1e35" stroke="#ff6b00" stroke-width="2"/>
+    <rect x="11" y="-12" width="16" height="9" rx="1.5" fill="#0a1e35" stroke="#ff6b00" stroke-width="2"/>
+  </g>
+</svg>

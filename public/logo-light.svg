@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 120" width="480" height="120">
+  <defs>
+    <linearGradient id="hexGradL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#143055"/>
+      <stop offset="100%" stop-color="#0d2444"/>
+    </linearGradient>
+    <linearGradient id="sunGradL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffa940"/>
+      <stop offset="100%" stop-color="#ff6b00"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(8,8)">
+    <path d="M52,4 L96,28 L96,76 L52,100 L8,76 L8,28 Z" fill="url(#hexGradL)" stroke="#ff6b00" stroke-width="2.5"/>
+
+    <g transform="translate(52,40)">
+      <circle cx="0" cy="-6" r="13" fill="url(#sunGradL)"/>
+      <g stroke="#ffa940" stroke-width="3" stroke-linecap="round">
+        <line x1="0" y1="-26" x2="0" y2="-30"/>
+        <line x1="-13" y1="-19" x2="-16" y2="-22"/>
+        <line x1="13" y1="-19" x2="16" y2="-22"/>
+        <line x1="-19" y1="-6" x2="-23" y2="-6"/>
+        <line x1="19" y1="-6" x2="23" y2="-6"/>
+      </g>
+    </g>
+
+    <g transform="translate(52,76)">
+      <rect x="-30" y="0" width="60" height="6" rx="2" fill="#ff6b00"/>
+      <rect x="-22" y="-10" width="14" height="8" rx="1" fill="#0a1e35" stroke="#ff6b00" stroke-width="1.5"/>
+      <rect x="-6" y="-10" width="14" height="8" rx="1" fill="#0a1e35" stroke="#ff6b00" stroke-width="1.5"/>
+      <rect x="10" y="-10" width="14" height="8" rx="1" fill="#0a1e35" stroke="#ff6b00" stroke-width="1.5"/>
+    </g>
+  </g>
+
+  <text x="128" y="56" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="42" font-weight="900" fill="#ffffff" letter-spacing="2">PESE</text>
+  <text x="130" y="82" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="600" fill="#ffa940" letter-spacing="5">CONSULTING</text>
+</svg>
