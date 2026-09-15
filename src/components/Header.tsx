@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { Button } from 'antd'
 import { MenuOutlined, CloseOutlined } from '@ant-design/icons'
 
@@ -16,6 +16,7 @@ export default function Header() {
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const location = useLocation()
+  const navigate = useNavigate()
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 80)
@@ -46,11 +47,9 @@ export default function Header() {
               {item.label}
             </Link>
           ))}
-          <Link to="/contact">
-            <Button type="primary" className="header-cta">
-              Get a Quote
-            </Button>
-          </Link>
+          <Button type="primary" className="header-cta" onClick={() => navigate('/contact')}>
+            Get a Quote
+          </Button>
         </nav>
 
         <button

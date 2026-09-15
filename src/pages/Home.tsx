@@ -5,12 +5,11 @@ import ServiceArea from '../components/ServiceArea'
 
 const previewServices = [
   { title: 'Solar Mounting Design', desc: 'Complete racking & mounting system design using IronRidge products.', img: '/img/bb016c368e6837363b32.jpg' },
-  { title: 'Wind Load Analysis (CFD)', desc: 'CFD simulation of wind pressures on solar arrays with precise pressure mapping.', img: '/img/10f5f29ba668ce21ef12.jpg' },
+  { title: 'Wind Load Analysis', desc: 'CFD simulation of wind pressures on solar arrays with precise pressure mapping.', img: '/img/10f5f29ba668ce21ef12.jpg' },
   { title: 'Structural Analysis (FEA)', desc: 'Finite element analysis of mounting components under extreme loading.', img: '/img/4aba92adde89485ced2a.jpg' },
 ]
 
 const capabilities = [
-  'IronRidge Certified Design Partner',
   'ASCE 7 Wind & Snow Load Compliance',
   'ANSYS FEA & CFD Simulation',
   'UL 2703 / 2703A Standards',

@@ -9,9 +9,9 @@ export default function Hero() {
         <div className="hero-overlay" />
       </div>
       <div className="hero-content">
-        <div className="hero-logo">
+        {/* <div className="hero-logo">
           <img src="/logo-light.svg" alt="PESE Consulting" />
-        </div>
+        </div> */}
         <p className="hero-subtitle">Engineering Solution Services</p>
         <p className="hero-tagline">
           Professional engineering solutions for solar mounting systems —
@@ -32,12 +32,12 @@ export default function Hero() {
       </div>
       <div className="hero-stats">
         <div className="stat-item">
-          <span className="stat-number">15+</span>
+          <span className="stat-number">20+</span>
           <span className="stat-label">Years Experience</span>
         </div>
         <div className="stat-divider" />
         <div className="stat-item">
-          <span className="stat-number">500+</span>
+          <span className="stat-number">700+</span>
           <span className="stat-label">Projects Completed</span>
         </div>
         <div className="stat-divider" />
@@ -50,9 +50,6 @@ export default function Hero() {
           <span className="stat-number">100%</span>
           <span className="stat-label">Code Compliant</span>
         </div>
-      </div>
-      <div className="scroll-indicator">
-        <span></span>
       </div>
     </section>
   )

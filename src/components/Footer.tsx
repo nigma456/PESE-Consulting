@@ -48,9 +48,7 @@ export default function Footer() {
               Engineering Solution Services for solar mounting systems.
               Professional design, analysis, and certification across the United States.
             </p>
-            <div className="footer-partner">
-              <span>Authorized IronRidge Design Partner</span>
-            </div>
+
           </div>
           {footerSections.map((section) => (
             <div key={section.title} className="footer-col">

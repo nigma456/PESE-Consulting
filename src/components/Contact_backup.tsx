@@ -14,7 +14,8 @@ const projectTypes = [
   'General Inquiry',
 ]
 
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/maeyrzzw'
+// Replace with your Formspree endpoint after registering at https://formspree.io
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/your-form-id'
 
 export default function Contact() {
   const [form] = Form.useForm()
