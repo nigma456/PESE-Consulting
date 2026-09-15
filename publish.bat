@@ -12,6 +12,12 @@ echo   Target         : Firebase Hosting (pese-consulting-gx)
 echo   Live site      : https://www.peseconsulting.com
 echo.
 
+rem ---- Proxy: required to reach Google APIs ----
+set HTTPS_PROXY=http://127.0.0.1:7897
+set HTTP_PROXY=http://127.0.0.1:7897
+echo   Proxy          : http://127.0.0.1:7897
+echo.
+
 rem ---- Step 1: Build ----
 echo   [1/3] Building production bundle...
 echo.
