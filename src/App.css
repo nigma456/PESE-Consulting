@@ -795,7 +795,7 @@
   color: var(--color-orange);
 }
 
-.contact-item span:last-child {
+.contact-item > div:last-child span:last-child {
   font-size: 16px;
   font-weight: 600;
   color: var(--color-navy);
