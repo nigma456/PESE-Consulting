@@ -1,6 +1,7 @@
 import PageBanner from '../components/PageBanner'
 import AboutContent from '../components/About'
 import ServiceArea from '../components/ServiceArea'
+import Credentials from '../components/Credentials'
 
 export default function About() {
   return (
@@ -13,6 +14,7 @@ export default function About() {
       />
       <AboutContent />
       <ServiceArea />
+      <Credentials />
     </>
   )
 }

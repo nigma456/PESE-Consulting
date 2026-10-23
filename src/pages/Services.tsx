@@ -1,5 +1,6 @@
 import PageBanner from '../components/PageBanner'
 import ServicesContent from '../components/Services'
+import ServiceScope from '../components/ServiceScope'
 
 export default function Services() {
   return (
@@ -11,6 +12,7 @@ export default function Services() {
         bgImage="/img/10f5f29ba668ce21ef12.jpg"
       />
       <ServicesContent />
+      <ServiceScope />
     </>
   )
 }

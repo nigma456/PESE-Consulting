@@ -10,11 +10,11 @@ const previewServices = [
 ]
 
 const capabilities = [
-  'ASCE 7 Wind & Snow Load Compliance',
+  'ASCE 7 & Wind Tunnel Based Wind Load Compliance Review',
   'ANSYS FEA & CFD Simulation',
   'UL 2703 / 2703A Standards',
-  'ISO 9001 Quality Management',
-  'NABCEP Certified Engineering',
+  'CA DSA Solar Racking Design Ready',
+  'UL 2703 Module Pressure Review',
 ]
 
 export default function Home() {
@@ -113,11 +113,6 @@ export default function Home() {
           <div className="home-cta-box">
             <h2>Ready to Start Your Engineering Project?</h2>
             <p>Contact PESE Consulting today for a personalized quote and project plan.</p>
-            <Link to="/contact">
-              <button className="hero-btn-primary">
-                Get a Quote <ArrowRightOutlined />
-              </button>
-            </Link>
           </div>
         </div>
       </section>

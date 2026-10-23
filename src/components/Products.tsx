@@ -28,16 +28,6 @@ export default function Products() {
   return (
     <section className="products">
       <div className="container">
-        <div className="section-header">
-          <div className="section-tag">Product Lines</div>
-          <h2 className="section-title">
-            IronRidge <span className="accent">Mounting Solutions</span>
-          </h2>
-          <p className="section-desc">
-            We design and engineer with the full range of IronRidge solar mounting products —
-            the industry standard for quality and reliability.
-          </p>
-        </div>
         <div className="products-grid">
           {products.map((product) => (
             <div key={product.title} className="product-card">
@@ -53,23 +43,9 @@ export default function Products() {
                     <li key={f}>{f}</li>
                   ))}
                 </ul>
-                <a
-                  href="https://www.ironridge.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="product-btn"
-                >
-                  View on IronRidge
-                </a>
               </div>
             </div>
           ))}
-        </div>
-        <div className="products-partner">
-          <div className="partner-badge">
-            <span className="partner-label">Authorized Design Partner</span>
-            <span className="partner-text">IronRidge — Enstall Group</span>
-          </div>
         </div>
       </div>
     </section>

@@ -27,7 +27,8 @@ const footerSections = [
     title: 'Company',
     links: [
       { label: 'About Us', path: '/about' },
-      { label: 'Engineering Portfolio', path: '/projects' },
+      { label: 'Projects', path: '/projects' },
+      { label: 'FEA Analysis', path: '/fea-analysis' },
       { label: 'Service Area', path: '/about' },
       { label: 'Certifications', path: '/about' },
       { label: 'Contact', path: '/contact' },

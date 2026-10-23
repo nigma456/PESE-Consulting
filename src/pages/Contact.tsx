@@ -7,7 +7,7 @@ export default function Contact() {
       <PageBanner
         tag="Get In Touch"
         title="Start Your Engineering Project"
-        subtitle="Tell us about your solar mounting project. Our engineering team will respond within 24 hours with a personalized quote and project plan."
+        subtitle="Tell us about your solar mounting project. Our engineering team will respond ASAP with a personalized quote and project plan."
         bgImage="/img/bfe7ab795ab584d16380.jpg"
       />
       <ContactContent />

@@ -1,14 +1,14 @@
 import { useState, useEffect } from 'react'
-import { Link, useLocation, useNavigate } from 'react-router-dom'
-import { Button } from 'antd'
+import { Link, useLocation } from 'react-router-dom'
 import { MenuOutlined, CloseOutlined } from '@ant-design/icons'
 
 const navItems = [
   { label: 'Home', path: '/' },
-  { label: 'About', path: '/about' },
+  { label: 'About Us', path: '/about' },
   { label: 'Services', path: '/services' },
-  { label: 'Products', path: '/products' },
   { label: 'Projects', path: '/projects' },
+  { label: 'FEA Analysis', path: '/fea-analysis' },
+  { label: 'Products', path: '/products' },
   { label: 'Contact', path: '/contact' },
 ]
 
@@ -16,7 +16,6 @@ export default function Header() {
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const location = useLocation()
-  const navigate = useNavigate()
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 80)
@@ -47,9 +46,6 @@ export default function Header() {
               {item.label}
             </Link>
           ))}
-          <Button type="primary" className="header-cta" onClick={() => navigate('/contact')}>
-            Get a Quote
-          </Button>
         </nav>
 
         <button

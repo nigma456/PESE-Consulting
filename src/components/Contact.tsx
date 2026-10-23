@@ -11,6 +11,13 @@ const projectTypes = [
   'Seismic Engineering',
   'Snow Load Engineering',
   'Hurricane Zone Engineering',
+  'Full Permit Package (up to 20 kW)',
+  'Commercial Structural Service (above 20 kW)',
+  'Engineer of Record & Sealing',
+  'Existing-Building Capacity Review',
+  'Field Inspection & Special Structures',
+  'Steel Connection Design',
+  'Residential Structural Development',
   'General Inquiry',
 ]
 
@@ -29,7 +36,7 @@ export default function Contact() {
         body: JSON.stringify(values),
       })
       if (res.ok) {
-        message.success('Thank you for your inquiry. We will respond within 24 hours.')
+        message.success('Thank you for your inquiry. We will respond ASAP.')
         form.resetFields()
       } else {
         message.error('Submission failed. Please email us directly at info@peseconsulting.com')
@@ -44,22 +51,12 @@ export default function Contact() {
   return (
     <section className="contact">
       <div className="container">
-        <div className="section-header">
-          <div className="section-tag">Get In Touch</div>
-          <h2 className="section-title">
-            Start Your <span className="accent">Engineering Project</span>
-          </h2>
-          <p className="section-desc">
-            Tell us about your solar mounting project. Our engineering team will respond
-            within 24 hours with a personalized quote and project plan.
-          </p>
-        </div>
         <div className="contact-grid">
           <div className="contact-info">
             <h3>Engineering Solution Services</h3>
             <p>
               Contact PESE Consulting for professional engineering design and analysis
-              services for your solar mounting system project.
+              services for your project.
             </p>
             <div className="contact-items">
               <div className="contact-item">

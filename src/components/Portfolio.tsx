@@ -53,16 +53,6 @@ export default function Portfolio() {
   return (
     <section className="portfolio">
       <div className="container">
-        <div className="section-header">
-          <div className="section-tag light">Engineering Portfolio</div>
-          <h2 className="section-title light">
-            Simulation & <span className="accent">Analysis Showcase</span>
-          </h2>
-          <p className="section-desc light">
-            A selection of our computational engineering work — CFD wind simulations,
-            FEA structural analyses, and real-world installation case studies.
-          </p>
-        </div>
         <div className="portfolio-grid">
           {portfolioItems.map((item) => (
             <div key={item.title} className="portfolio-card">

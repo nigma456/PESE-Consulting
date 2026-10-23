@@ -56,16 +56,6 @@ export default function Services() {
   return (
     <section className="services">
       <div className="container">
-        <div className="section-header">
-          <div className="section-tag">Our Services</div>
-          <h2 className="section-title">
-            Comprehensive <span className="accent">Engineering Solutions</span>
-          </h2>
-          <p className="section-desc">
-            From computational simulation to code-compliant design, we provide end-to-end
-            engineering services for solar mounting systems in any environment.
-          </p>
-        </div>
         <div className="services-grid">
           {services.map((service) => (
             <div key={service.title} className="service-card">

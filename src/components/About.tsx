@@ -1,12 +1,12 @@
 import { CheckCircleFilled } from '@ant-design/icons'
 
 const capabilities = [
-  'IronRidge Certified Design Partner',
-  'ASCE 7 Wind & Snow Load Compliance',
+  'PE & SE Certified Racking System',
+  'ASCE 7 & Wind Tunnel Based Wind Load Compliance Review',
   'ANSYS FEA & CFD Simulation',
   'UL 2703 / 2703A Standards',
-  'ISO 9001 Quality Management',
-  'NABCEP Certified Engineering',
+  'CA DSA Solar Racking Design Ready',
+  'UL 2703 Module Pressure Review',
 ]
 
 export default function About() {
